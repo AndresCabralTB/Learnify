@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982080E029E8B49D00C4D795 /* LearnifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982080DF29E8B49D00C4D795 /* LearnifyApp.swift */; };
+		982080E229E8B49D00C4D795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982080E129E8B49D00C4D795 /* ContentView.swift */; };
+		982080E429E8B4A100C4D795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982080E329E8B4A100C4D795 /* Assets.xcassets */; };
+		982080E729E8B4A100C4D795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982080E629E8B4A100C4D795 /* Preview Assets.xcassets */; };
+		982080F129E8B4A100C4D795 /* LearnifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982080F029E8B4A100C4D795 /* LearnifyTests.swift */; };
+		982080FB29E8B4A100C4D795 /* LearnifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982080FA29E8B4A100C4D795 /* LearnifyUITests.swift */; };
+		982080FD29E8B4A100C4D795 /* LearnifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982080FC29E8B4A100C4D795 /* LearnifyUITestsLaunchTests.swift */; };
+		9820810C29E8EFEA00C4D795 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9820810B29E8EFE900C4D795 /* LoginView.swift */; };
+		98689EF629EB108100E901DF /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98689EF529EB108100E901DF /* SignUp.swift */; };
+		987EC50529ED1D6400E659BA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987EC50429ED1D6400E659BA /* Settings.swift */; };
+		987EC50B29ED635400E659BA /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987EC50A29ED635400E659BA /* TempView.swift */; };
+		987EC50D29ED649100E659BA /* Diana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987EC50C29ED649100E659BA /* Diana.swift */; };
+		98C3853129E92D2000F690B3 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3853029E92D2000F690B3 /* MainMenu.swift */; };
+		98C3853329E940FE00F690B3 /* DailyExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3853229E940FE00F690B3 /* DailyExercises.swift */; };
+		98C3853529E9416600F690B3 /* StudyMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3853429E9416600F690B3 /* StudyMethods.swift */; };
+		98C3853729E941EC00F690B3 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3853629E941EC00F690B3 /* Courses.swift */; };
+		98C3853929E941FD00F690B3 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3853829E941FD00F690B3 /* Social.swift */; };
+		98C3854B29E94A0200F690B3 /* KoHo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3853E29E949FE00F690B3 /* KoHo-BoldItalic.ttf */; };
+		98C3854E29E94A0200F690B3 /* KoHo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3854129E949FF00F690B3 /* KoHo-Bold.ttf */; };
+		98C3854F29E94A0200F690B3 /* KoHo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3854229E949FF00F690B3 /* KoHo-ExtraLight.ttf */; };
+		98C3855429E94A0200F690B3 /* KoHo-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3854729E94A0100F690B3 /* KoHo-ExtraLightItalic.ttf */; };
+		98C3855929E94D4200F690B3 /* KoHo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3855829E94D4200F690B3 /* KoHo-Regular.ttf */; };
+		98C3855C29E9B60500F690B3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3855A29E9B60500F690B3 /* Roboto-Regular.ttf */; };
+		98C3855D29E9B60500F690B3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98C3855B29E9B60500F690B3 /* Roboto-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		982080ED29E8B4A100C4D795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982080D429E8B49D00C4D795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982080DB29E8B49D00C4D795;
+			remoteInfo = Learnify;
+		};
+		982080F729E8B4A100C4D795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982080D429E8B49D00C4D795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982080DB29E8B49D00C4D795;
+			remoteInfo = Learnify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		982080DC29E8B49D00C4D795 /* Learnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982080DF29E8B49D00C4D795 /* LearnifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnifyApp.swift; sourceTree = "<group>"; };
+		982080E129E8B49D00C4D795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		982080E329E8B4A100C4D795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982080E629E8B4A100C4D795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		982080EC29E8B4A100C4D795 /* LearnifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		982080F029E8B4A100C4D795 /* LearnifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnifyTests.swift; sourceTree = "<group>"; };
+		982080F629E8B4A100C4D795 /* LearnifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		982080FA29E8B4A100C4D795 /* LearnifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnifyUITests.swift; sourceTree = "<group>"; };
+		982080FC29E8B4A100C4D795 /* LearnifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9820810B29E8EFE900C4D795 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		98689EF529EB108100E901DF /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		987EC50429ED1D6400E659BA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		987EC50A29ED635400E659BA /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
+		987EC50C29ED649100E659BA /* Diana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diana.swift; sourceTree = "<group>"; };
+		98C3853029E92D2000F690B3 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		98C3853229E940FE00F690B3 /* DailyExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExercises.swift; sourceTree = "<group>"; };
+		98C3853429E9416600F690B3 /* StudyMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMethods.swift; sourceTree = "<group>"; };
+		98C3853629E941EC00F690B3 /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		98C3853829E941FD00F690B3 /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		98C3853E29E949FE00F690B3 /* KoHo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoHo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		98C3854129E949FF00F690B3 /* KoHo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoHo-Bold.ttf"; sourceTree = "<group>"; };
+		98C3854229E949FF00F690B3 /* KoHo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoHo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		98C3854729E94A0100F690B3 /* KoHo-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoHo-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		98C3855729E94A6E00F690B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98C3855829E94D4200F690B3 /* KoHo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KoHo-Regular.ttf"; sourceTree = "<group>"; };
+		98C3855A29E9B60500F690B3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		98C3855B29E9B60500F690B3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982080D929E8B49D00C4D795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080E929E8B4A100C4D795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080F329E8B4A100C4D795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982080D329E8B49D00C4D795 = {
+			isa = PBXGroup;
+			children = (
+				982080DE29E8B49D00C4D795 /* Learnify */,
+				982080EF29E8B4A100C4D795 /* LearnifyTests */,
+				982080F929E8B4A100C4D795 /* LearnifyUITests */,
+				982080DD29E8B49D00C4D795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982080DD29E8B49D00C4D795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982080DC29E8B49D00C4D795 /* Learnify.app */,
+				982080EC29E8B4A100C4D795 /* LearnifyTests.xctest */,
+				982080F629E8B4A100C4D795 /* LearnifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982080DE29E8B49D00C4D795 /* Learnify */ = {
+			isa = PBXGroup;
+			children = (
+				98C3855729E94A6E00F690B3 /* Info.plist */,
+				982080DF29E8B49D00C4D795 /* LearnifyApp.swift */,
+				982080E129E8B49D00C4D795 /* ContentView.swift */,
+				9820810B29E8EFE900C4D795 /* LoginView.swift */,
+				98689EF529EB108100E901DF /* SignUp.swift */,
+				98C3853029E92D2000F690B3 /* MainMenu.swift */,
+				98C3853229E940FE00F690B3 /* DailyExercises.swift */,
+				98C3853429E9416600F690B3 /* StudyMethods.swift */,
+				98C3853629E941EC00F690B3 /* Courses.swift */,
+				98C3853829E941FD00F690B3 /* Social.swift */,
+				987EC50429ED1D6400E659BA /* Settings.swift */,
+				987EC50A29ED635400E659BA /* TempView.swift */,
+				987EC50C29ED649100E659BA /* Diana.swift */,
+				982080E329E8B4A100C4D795 /* Assets.xcassets */,
+				98C3853C29E9492F00F690B3 /* Fonts */,
+				982080E529E8B4A100C4D795 /* Preview Content */,
+			);
+			path = Learnify;
+			sourceTree = "<group>";
+		};
+		982080E529E8B4A100C4D795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				982080E629E8B4A100C4D795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		982080EF29E8B4A100C4D795 /* LearnifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				982080F029E8B4A100C4D795 /* LearnifyTests.swift */,
+			);
+			path = LearnifyTests;
+			sourceTree = "<group>";
+		};
+		982080F929E8B4A100C4D795 /* LearnifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				982080FA29E8B4A100C4D795 /* LearnifyUITests.swift */,
+				982080FC29E8B4A100C4D795 /* LearnifyUITestsLaunchTests.swift */,
+			);
+			path = LearnifyUITests;
+			sourceTree = "<group>";
+		};
+		98C3853C29E9492F00F690B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98C3855B29E9B60500F690B3 /* Roboto-Bold.ttf */,
+				98C3855A29E9B60500F690B3 /* Roboto-Regular.ttf */,
+				98C3854129E949FF00F690B3 /* KoHo-Bold.ttf */,
+				98C3855829E94D4200F690B3 /* KoHo-Regular.ttf */,
+				98C3853E29E949FE00F690B3 /* KoHo-BoldItalic.ttf */,
+				98C3854229E949FF00F690B3 /* KoHo-ExtraLight.ttf */,
+				98C3854729E94A0100F690B3 /* KoHo-ExtraLightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982080DB29E8B49D00C4D795 /* Learnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9820810029E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "Learnify" */;
+			buildPhases = (
+				982080D829E8B49D00C4D795 /* Sources */,
+				982080D929E8B49D00C4D795 /* Frameworks */,
+				982080DA29E8B49D00C4D795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learnify;
+			productName = Learnify;
+			productReference = 982080DC29E8B49D00C4D795 /* Learnify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		982080EB29E8B4A100C4D795 /* LearnifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9820810329E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "LearnifyTests" */;
+			buildPhases = (
+				982080E829E8B4A100C4D795 /* Sources */,
+				982080E929E8B4A100C4D795 /* Frameworks */,
+				982080EA29E8B4A100C4D795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982080EE29E8B4A100C4D795 /* PBXTargetDependency */,
+			);
+			name = LearnifyTests;
+			productName = LearnifyTests;
+			productReference = 982080EC29E8B4A100C4D795 /* LearnifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		982080F529E8B4A100C4D795 /* LearnifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9820810629E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "LearnifyUITests" */;
+			buildPhases = (
+				982080F229E8B4A100C4D795 /* Sources */,
+				982080F329E8B4A100C4D795 /* Frameworks */,
+				982080F429E8B4A100C4D795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982080F829E8B4A100C4D795 /* PBXTargetDependency */,
+			);
+			name = LearnifyUITests;
+			productName = LearnifyUITests;
+			productReference = 982080F629E8B4A100C4D795 /* LearnifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982080D429E8B49D00C4D795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					982080DB29E8B49D00C4D795 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					982080EB29E8B4A100C4D795 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 982080DB29E8B49D00C4D795;
+					};
+					982080F529E8B4A100C4D795 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 982080DB29E8B49D00C4D795;
+					};
+				};
+			};
+			buildConfigurationList = 982080D729E8B49D00C4D795 /* Build configuration list for PBXProject "Learnify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982080D329E8B49D00C4D795;
+			productRefGroup = 982080DD29E8B49D00C4D795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982080DB29E8B49D00C4D795 /* Learnify */,
+				982080EB29E8B4A100C4D795 /* LearnifyTests */,
+				982080F529E8B4A100C4D795 /* LearnifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982080DA29E8B49D00C4D795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C3854E29E94A0200F690B3 /* KoHo-Bold.ttf in Resources */,
+				98C3854F29E94A0200F690B3 /* KoHo-ExtraLight.ttf in Resources */,
+				98C3855C29E9B60500F690B3 /* Roboto-Regular.ttf in Resources */,
+				98C3855929E94D4200F690B3 /* KoHo-Regular.ttf in Resources */,
+				98C3854B29E94A0200F690B3 /* KoHo-BoldItalic.ttf in Resources */,
+				98C3855D29E9B60500F690B3 /* Roboto-Bold.ttf in Resources */,
+				98C3855429E94A0200F690B3 /* KoHo-ExtraLightItalic.ttf in Resources */,
+				982080E729E8B4A100C4D795 /* Preview Assets.xcassets in Resources */,
+				982080E429E8B4A100C4D795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080EA29E8B4A100C4D795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080F429E8B4A100C4D795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982080D829E8B49D00C4D795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9820810C29E8EFEA00C4D795 /* LoginView.swift in Sources */,
+				98C3853329E940FE00F690B3 /* DailyExercises.swift in Sources */,
+				98C3853929E941FD00F690B3 /* Social.swift in Sources */,
+				987EC50D29ED649100E659BA /* Diana.swift in Sources */,
+				98C3853729E941EC00F690B3 /* Courses.swift in Sources */,
+				987EC50529ED1D6400E659BA /* Settings.swift in Sources */,
+				98C3853529E9416600F690B3 /* StudyMethods.swift in Sources */,
+				982080E229E8B49D00C4D795 /* ContentView.swift in Sources */,
+				982080E029E8B49D00C4D795 /* LearnifyApp.swift in Sources */,
+				98689EF629EB108100E901DF /* SignUp.swift in Sources */,
+				987EC50B29ED635400E659BA /* TempView.swift in Sources */,
+				98C3853129E92D2000F690B3 /* MainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080E829E8B4A100C4D795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982080F129E8B4A100C4D795 /* LearnifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982080F229E8B4A100C4D795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982080FD29E8B4A100C4D795 /* LearnifyUITestsLaunchTests.swift in Sources */,
+				982080FB29E8B4A100C4D795 /* LearnifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982080EE29E8B4A100C4D795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982080DB29E8B49D00C4D795 /* Learnify */;
+			targetProxy = 982080ED29E8B4A100C4D795 /* PBXContainerItemProxy */;
+		};
+		982080F829E8B4A100C4D795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982080DB29E8B49D00C4D795 /* Learnify */;
+			targetProxy = 982080F729E8B4A100C4D795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		982080FE29E8B4A100C4D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		982080FF29E8B4A100C4D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9820810129E8B4A100C4D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnify/Preview Content\"";
+				DEVELOPMENT_TEAM = F9V9M28QC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Learnify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Learnify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.Learnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9820810229E8B4A100C4D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnify/Preview Content\"";
+				DEVELOPMENT_TEAM = F9V9M28QC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Learnify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Learnify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.Learnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9820810429E8B4A100C4D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.LearnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnify";
+			};
+			name = Debug;
+		};
+		9820810529E8B4A100C4D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.LearnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnify";
+			};
+			name = Release;
+		};
+		9820810729E8B4A100C4D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.LearnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnify;
+			};
+			name = Debug;
+		};
+		9820810829E8B4A100C4D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IngSoftware.LearnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982080D729E8B49D00C4D795 /* Build configuration list for PBXProject "Learnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982080FE29E8B4A100C4D795 /* Debug */,
+				982080FF29E8B4A100C4D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9820810029E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "Learnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9820810129E8B4A100C4D795 /* Debug */,
+				9820810229E8B4A100C4D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9820810329E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "LearnifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9820810429E8B4A100C4D795 /* Debug */,
+				9820810529E8B4A100C4D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9820810629E8B4A100C4D795 /* Build configuration list for PBXNativeTarget "LearnifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9820810729E8B4A100C4D795 /* Debug */,
+				9820810829E8B4A100C4D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982080D429E8B49D00C4D795 /* Project object */;
+}
